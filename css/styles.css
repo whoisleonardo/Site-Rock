@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 115px;
+    background-color: #4A231F;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navesq{
+    width: 115px;
+    height: 105px;
+    margin-top: 5px;
+    margin-left: 30px;  
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+
+#navdir{
+    display: inline-block;
+    width: 1050px;
+    vertical-align: 215%;
+    text-align: right;
+    font-size: 19px;
+}
+
+#navdir a{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 7px;
+    color: black;
+}
+
+#navdir a:hover{
+    color: #A22F27;
+}
+
+main{
+    width: 100%;
+    height: 750px;
+    background-color: #5e2e29;
+    margin-left: auto;
+    margin-right: auto;
+}
+#texto{
+    width: 40%;
+    height: 400px;
+    margin-top: 5px;
+    font-size: 19px;
+    display: inline-block;
+    text-align: left;
+}
+
+#rockimg{
+    width: 600px;
+    height: 734px;
+    margin-top: 5px;
+    margin-right: 10px;  
+    background-image: url(../img/ledzeppelin.png);
+    float: right;
+}
+
+footer{
+    height: 280px;
+    background-color: #4A231F;
+    margin-top: -20px; 
+    padding: 0;   
+}
+
+#email, #senha{
+    width: 15%;
+    margin-top: 5px;
+    padding: 2px;
+    font-size: 100%;
+    display: block;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sub{
+    display: inline-block;
+    width: 15%;
+    text-align: left;
+    font-size: 19px;    
+}
+#verificarnumero{
+    margin-top: -100px;
+    font-size: 19px;
+    text-align: right;
+    float: right;   
+}
+
+button {   
+    background-color: #813F36; 
+    padding: 5px 10px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    border-radius: 8px; 
+    border: none;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #813F45; 
+}
+
